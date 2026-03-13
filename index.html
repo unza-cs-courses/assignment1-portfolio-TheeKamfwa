@@ -1,261 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    
+    <!-- REQUIRED FOR RESPONSIVE DESIGN -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio website for [Your Name]">
-    <title>Portfolio - [Your Name]</title>
+
+    <title>EMMANUEL MWANSA | Portfolio</title>
+
+    <!-- LINK TO EXTERNAL CSS FILE -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <!--
-    ============================================================
-    ASSIGNMENT 1: RESPONSIVE PORTFOLIO WEBSITE
-    CSC4035 Web Programming and Technologies
+    <header>
 
-    Instructions:
-    1. Complete all TODO sections below
-    2. Use semantic HTML5 elements
-    3. Ensure all images have alt attributes
-    4. Ensure all form inputs have labels
-    5. Test responsiveness at multiple breakpoints
-    ============================================================
-    -->
+<nav>
 
-    <!-- Navigation -->
-    <header class="header">
-        <nav class="nav">
-            <!-- TODO: Create navigation with links to each section
-                 Requirements:
-                 - Logo/site title
-                 - Navigation links (Home, About, Projects, Contact)
-                 - Mobile-friendly (hamburger menu optional)
-                 - Active state indication
-            -->
-            <div class="nav__logo">
-                <a href="#home">[Your Name]</a>
-            </div>
-            <ul class="nav__menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<h1>EMMANUEL MWANSA</h1>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero">
-            <!-- TODO: Create hero section
-                 Requirements:
-                 - Your name (h1)
-                 - Professional tagline
-                 - Call-to-action button
-                 - Consider using Flexbox for layout
-            -->
-            <div class="hero__content">
-                <h1>Your Name</h1>
-                <p class="hero__tagline">
-                    <!-- TODO: Add your professional tagline -->
-                    Web Developer | Designer | Problem Solver
-                </p>
-                <a href="#contact" class="btn btn--primary">Get In Touch</a>
-            </div>
-        </section>
+<ul>
 
-        <!-- About Section -->
-        <section id="about" class="about">
-            <!-- TODO: Create about section
-                 Requirements:
-                 - Section heading (h2)
-                 - Profile image with alt text
-                 - Professional bio (150+ words)
-                 - Skills list
-                 - Use CSS Grid or Flexbox for layout
-            -->
-            <div class="container">
-                <h2>About Me</h2>
-                <div class="about__content">
-                    <div class="about__image">
-                        <!-- TODO: Add your profile image -->
-                        <img src="images/profile-placeholder.jpg" alt="Profile photo of [Your Name]">
-                    </div>
-                    <div class="about__text">
-                        <p>
-                            <!-- TODO: Write your professional bio (150+ words)
-                                 Include:
-                                 - Your background
-                                 - Your interests in web development
-                                 - Your goals
-                                 - What makes you unique
-                            -->
-                            [Your professional bio goes here. Write at least 150 words about yourself,
-                            your background, your passion for web development, and your goals.
-                            This is your opportunity to introduce yourself to potential employers or clients.]
-                        </p>
-                        <h3>Skills</h3>
-                        <ul class="skills-list">
-                            <!-- TODO: Add your skills -->
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                            <li>Responsive Design</li>
-                            <!-- Add more skills -->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects">
-            <!-- TODO: Create projects section
-                 Requirements:
-                 - Section heading (h2)
-                 - Minimum 3 project cards
-                 - Each card: image, title, description, link(s)
-                 - Use CSS Grid for card layout
-            -->
-            <div class="container">
-                <h2>My Projects</h2>
-                <div class="projects__grid">
-                    <!-- Project Card 1 -->
-                    <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project1-placeholder.jpg" alt="Screenshot of Project 1">
-                        <div class="project-card__content">
-                            <h3>Project Title 1</h3>
-                            <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
-                            </p>
-                            <div class="project-card__links">
-                                <a href="#" class="btn btn--small">Live Demo</a>
-                                <a href="#" class="btn btn--small btn--outline">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
+</ul>
 
-                    <!-- Project Card 2 -->
-                    <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project2-placeholder.jpg" alt="Screenshot of Project 2">
-                        <div class="project-card__content">
-                            <h3>Project Title 2</h3>
-                            <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
-                            </p>
-                            <div class="project-card__links">
-                                <a href="#" class="btn btn--small">Live Demo</a>
-                                <a href="#" class="btn btn--small btn--outline">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
+</nav>
 
-                    <!-- Project Card 3 -->
-                    <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project3-placeholder.jpg" alt="Screenshot of Project 3">
-                        <div class="project-card__content">
-                            <h3>Project Title 3</h3>
-                            <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
-                            </p>
-                            <div class="project-card__links">
-                                <a href="#" class="btn btn--small">Live Demo</a>
-                                <a href="#" class="btn btn--small btn--outline">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
+</header>
+<main>
 
-                    <!-- TODO: Add more project cards if desired -->
-                </div>
-            </div>
-        </section>
+<section id="home">
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <!-- TODO: Create contact section
-                 Requirements:
-                 - Section heading (h2)
-                 - Contact form with:
-                   - Name field (required)
-                   - Email field (required, type="email")
-                   - Message textarea (required)
-                   - Submit button
-                 - All inputs must have associated labels
-                 - Use HTML5 validation attributes
-            -->
-            <div class="container">
-                <h2>Contact Me</h2>
-                <form class="contact__form" action="#" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            required
-                            placeholder="Your Name"
-                            minlength="2"
-                        >
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            required
-                            placeholder="your.email@example.com"
-                        >
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input
-                            type="text"
-                            id="subject"
-                            name="subject"
-                            placeholder="What is this regarding?"
-                        >
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            required
-                            rows="5"
-                            placeholder="Your message..."
-                            minlength="10"
-                        ></textarea>
-                    </div>
-                    <button type="submit" class="btn btn--primary">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
+<h2>EMMANUEL MWANSA</h2>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <!-- TODO: Create footer
-             Requirements:
-             - Copyright notice
-             - Social media links (optional)
-             - Back to top link (optional)
-        -->
-        <div class="container">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
-            <nav class="footer__social">
-                <!-- TODO: Add your social media links -->
-                <a href="#" aria-label="GitHub">GitHub</a>
-                <a href="#" aria-label="LinkedIn">LinkedIn</a>
-                <a href="#" aria-label="Twitter">Twitter</a>
-            </nav>
-        </div>
-    </footer>
+<p>A passionate web developer creating responsive websites.</p>
+
+<a href="#projects">View My Work</a>
+
+</section>
+<section id="about">
+
+<h2>About Me</h2>
+
+<img src="images/profile.jpg" alt="Profile picture of Emmanuel">
+
+<p>
+I am a passionate and motivated web developer who enjoys creating modern,
+responsive, and user-friendly websites. My interest in web development started
+when I became curious about how websites are built and how design and code work
+together to create engaging user experiences.
+
+Through my studies and personal projects, I have developed strong skills in
+HTML5 and CSS3. I enjoy structuring web pages using semantic HTML and designing
+clean layouts with modern CSS techniques such as Flexbox and Grid. I also focus
+on responsive design to ensure that websites look great on mobile phones,
+tablets, and desktop devices.
+
+I believe that accessibility and usability are important aspects of web design.
+Creating websites that are easy to navigate and accessible to all users is a key
+part of my development approach. I am constantly learning new technologies and
+improving my skills so I can build better and more efficient web applications in
+the future.
+</p>
+
+<h3>Skills</h3>
+
+<ul>
+
+<li>HTML5</li>
+<li>CSS3</li>
+<li>Responsive Design</li>
+<li>Flexbox</li>
+<li>CSS Grid</li>
+
+</ul>
+
+</section>
+<section id="projects">
+
+<h2>Projects</h2>
+
+<article>
+
+<img src="images/project1.jpg" alt=" portfolio website project">
+
+<h3>Portfolio Website</h3>
+
+<p>A personal responsive portfolio website built using HTML and CSS.</p>
+
+<a href="#">Live Demo</a>
+<a href="#">GitHub</a>
+
+</article>
+
+
+<article>
+
+<img src="images/project2.jpg" alt=" landing page project">
+
+<h3>Landing Page</h3>
+
+<p>A responsive landing page designed with modern layout techniques.</p>
+
+<a href="#">Live Demo</a>
+<a href="#">GitHub</a>
+
+</article>
+
+
+<article>
+
+<img src="images/project3.jpg" alt=" blog layout project">
+
+<h3>Blog Layout</h3>
+
+<p>A blog layout created using CSS Grid and responsive design.</p>
+
+<a href="#">Live Demo</a>
+<a href="#">GitHub</a>
+
+</article>
+
+</section>
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<label for="name">Name</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+</main>
+<footer>
+
+<p>© 2026 EMMANUEL MWANSA. All rights reserved.</p>
+
+</footer>
 </body>
+
 </html>
